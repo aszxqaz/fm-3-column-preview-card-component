@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 36rem;
+
+  --color-gray-100: rgb(242 242 242);
+  --color-green-500: rgb(25 184 157);
+  --color-green-950: rgb(0 65 64);
+  --color-cyan-500: rgb(38 181 192);
+  --color-cyan-800: rgb(0 105 113);
+  --color-gold-200: rgb(255 212 115);
+  --color-gold-500: rgb(226 134 37);
+
+  --font-heading: "Big Shoulders", sans-serif;
+  --font-sans: "Lexend Deca", sans-serif;
+  --text-base: 0.9375rem;
+
+  --animate-leftmost: leftmost 0.5s forwards ease-out;
+  --animate-center: center 1s forwards ease-out;
+  --animate-rightmost: rightmost 1.5s forwards ease-out;
+
+  @keyframes leftmost {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes center {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    50% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes rightmost {
+    0% {
+      transform: translateX(-200%);
+      opacity: 0;
+    }
+    66.66% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+}

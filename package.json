@@ -1,0 +1,18 @@
+{
+  "name": "3-column-preview-card-component",
+  "version": "1.0.0",
+  "description": "3-column preview card - Frontend Mentor challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "frontendmentor"
+  ],
+  "author": "aszxqaz",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  }
+}
